@@ -66,7 +66,7 @@ A default `.env` file is already created in `server/.env`. If you need to custom
 ```ini
 PORT=5000
 MONGODB_URI=mongodb://localhost:27017/college_complaint_db
-JWT_SECRET=campus_resolve_jwt_super_secret_key_2026_nxtwave
+JWT_SECRET=campus_resolve_jwt_super_secret_key_2026
 CLIENT_URL=http://localhost:5173
 ```
 > **Note for MongoDB Atlas Users**: If using MongoDB Atlas in the cloud, simply replace `MONGODB_URI` with your connection string (e.g., `mongodb+srv://<user>:<password>@cluster0.mongodb.net/college_complaint_db`).
