@@ -25,7 +25,7 @@ In most higher-education institutions, student grievances—ranging from failing
 
 ## 3. Features
 
-### 🎓 Core Student Features
+###  Core Student Features
 - **Restricted, Role-Based Authentication**: Secure JWT-based login for students authorized by the college administration (with `bcryptjs` password encryption).
 - **Student Metrics Dashboard**: Real-time counter cards showing total complaints filed, issues currently pending, and successfully resolved tickets.
 - **Multi-Category Complaint Submission**:
@@ -38,14 +38,14 @@ In most higher-education institutions, student grievances—ranging from failing
 - **Resolution Rating & Feedback Loop**: Upon resolution, students submit a 1–5 star rating and closing satisfaction remarks to finalize the ticket.
 - **Two-Way Audit & Comment Trail**: Interactive timestamped message thread between student and administration for ongoing updates.
 
-### 🛡️ Core Administrator Features
+###  Core Administrator Features
 - **Centralized Complaints Registry**: Unified table with multi-criteria filtering by Status, Category, Priority, Department, and real-time text search.
 - **Workflow & Lifecycle Triage**: Advance complaint statuses with automatic timestamping and public audit remarks.
 - **Department Routing**: Dispatch tickets to campus service wings (*IT & Wi-Fi Support, Hostel Administration, Estate & Infrastructure, Transport Wing, Campus Sanitation, Academic Facilities*) and assign technicians.
 - **Resolution Documentation**: Record specific corrective actions and repairs before resolving tickets.
 - **Analytics & Trends Dashboard**: Visual statistics highlighting ticket volume, department distributions, priority breakdowns, and average resolution duration in hours.
 
-### 🌟 Bonus & Advanced Features
+###  Bonus & Advanced Features
 - **In-App Student Credential Management**: Administrators can provision new student accounts directly through the UI with custom or auto-generated passwords and instant credential copying.
 - **Live Search & Multi-Filters**: Instant client-side and server-side querying across issue titles, roll numbers, and categories.
 - **Responsive Modern UI**: Glassmorphic styling built with Tailwind CSS, custom color palettes, and Lucide React icons.
@@ -163,5 +163,5 @@ Create a `.env` file in the `server` directory. The following variables are requ
 | `CLIENT_URL` | Yes | URL of the frontend application allowed by CORS | `http://localhost:5173` (local) or `https://campus-resolve-krt0.onrender.com` |
 | `VITE_API_BASE_URL` | Optional | Custom API base URL for decoupled frontend builds | `/api` |
 
-> ⚠️ **Important Security Notice**:
+>  **Important Security Notice**:
 > Never commit `.env` files, API keys, database credentials, passwords, or JWT secrets to GitHub. Ensure `server/.env` and `client/.env` are listed in your [`.gitignore`](.gitignore) file.
