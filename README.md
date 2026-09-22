@@ -88,15 +88,14 @@ In most higher-education institutions, student grievances—ranging from failing
 
 ## 6. Live Demo
 
-- **Live Application URL**: [https://college-complaint-management.onrender.com](https://college-complaint-management.onrender.com)
-  *(Alternatively, if deployed on Vercel: [https://campus-resolve.vercel.app](https://campus-resolve.vercel.app))*
+- **Live Application URL**: [https://campus-resolve-krt0.onrender.com/](https://campus-resolve-krt0.onrender.com/)
 
 ---
 
 ## 7. Backend
 
-- **Deployed Backend Base URL**: [https://college-complaint-management.onrender.com/api](https://college-complaint-management.onrender.com/api)
-- **API Health Check Endpoint**: [https://college-complaint-management.onrender.com/api/health](https://college-complaint-management.onrender.com/api/health)
+- **Deployed Backend Base URL**: [https://campus-resolve-krt0.onrender.com/api](https://campus-resolve-krt0.onrender.com/api)
+- **API Health Check Endpoint**: [https://campus-resolve-krt0.onrender.com/api/health](https://campus-resolve-krt0.onrender.com/api/health)
 
 ---
 
@@ -161,7 +160,7 @@ Create a `.env` file in the `server` directory. The following variables are requ
 | `PORT` | Yes | Port on which the Express server listens | `5000` |
 | `MONGODB_URI` | Yes | MongoDB connection string (local or cloud Atlas URI) | `mongodb://localhost:27017/college_complaint_db` |
 | `JWT_SECRET` | Yes | Secret cryptographic key used to sign and verify JWT session tokens | `your_secret_key_here` |
-| `CLIENT_URL` | Yes | URL of the frontend application allowed by CORS | `http://localhost:5173` (local) or `https://your-app.onrender.com` |
+| `CLIENT_URL` | Yes | URL of the frontend application allowed by CORS | `http://localhost:5173` (local) or `https://campus-resolve-krt0.onrender.com` |
 | `VITE_API_BASE_URL` | Optional | Custom API base URL for decoupled frontend builds | `/api` |
 
 > ⚠️ **Important Security Notice**:
